@@ -1,3 +1,4 @@
+import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -10,6 +11,7 @@ import { MainModule } from './main/main.module';
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     MainModule
   ],
   providers: [],
