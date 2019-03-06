@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { InstallationComponent } from './getting-started/installation/installation.component';
+import { GettingStartedComponent } from './getting-started/getting-started/getting-started.component';
 
 const routes: Routes = [
   {
-    path: 'installation',
-    component: InstallationComponent
+    path: 'getting-started',
+    component: GettingStartedComponent
   }
 ];
 
