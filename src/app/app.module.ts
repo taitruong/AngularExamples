@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { MainModule } from './main/main.module';
+import { GettingStartedModule } from './getting-started/getting-started.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { MainModule } from './main/main.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MainModule
+    MainModule,
+    GettingStartedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
