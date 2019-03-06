@@ -13,7 +13,7 @@ import { RouterModule } from '@angular/router';
     GettingStartedModule
   ],
   exports: [
-    HeaderComponent
+    HomeComponent
   ]
 })
 export class MainModule { }
